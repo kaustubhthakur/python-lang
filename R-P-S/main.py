@@ -13,8 +13,10 @@ def check_win(player,computer):
     if player==computer:
         return "its a draw"
     elif player=="rock" and computer=="scissors":
-        return "your lose"
+        return "your win"
     elif player=="rock" and computer=="paper":
         return "your loss"
-        
 
+choices = get_choices()
+result =check_win(choices["player"],choices["computer"])
+print("result",result);
