@@ -18,11 +18,10 @@ item1 = Item("I-phone",1000000,9)
 print(item1.name," => ","price => ",item1.price, "quant => ", item1.quantity,"total price => ",item1.calculate_price())
 
 
-"""
+
 item2 = Item()
 item2.name = "Laptop"
 item2.price = 100000
 item2.quantity  = 2
 ans2 = item1.calculate_price(item2.price*item2.quantity);
 print(ans2);
-"""
